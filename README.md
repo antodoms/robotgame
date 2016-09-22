@@ -22,7 +22,30 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Initilize the robot on to a variable
+```ruby
+@robot = Robotgame::Robot.new
+```
+
+Run the robot commands
+```ruby
+@robot.run("place 0,0,north")    #-> nil
+
+@robot.run("move")   #-> nil
+
+@robot.run("report")  #-> "0,1,NORTH"
+
+@robot.run("left")    #-> nil
+
+@robot.run("report")   #-> "0,1,WEST"
+
+@robot.run("right")    #-> nil
+
+@robot.run("move")   #-> nil
+
+@robot.run("report")  #-> "0,2,NORTH"
+
+```
 
 ## Development
 

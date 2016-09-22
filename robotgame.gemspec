@@ -8,7 +8,6 @@ Gem::Specification.new do |spec|
   spec.version       = Robotgame::VERSION
   spec.authors       = ["antodoms"]
   spec.email         = ["antodoms@gmail.com"]
-
   spec.summary       = %q{Coding challenge Robot game on 5*5 table}
   spec.description   = %q{Robot Game Model for 5*5 sized on a table with no obstruction and shouldnt fall off the table. This is a test for coding challenge}
   spec.homepage      = "https://github.com/antodoms/robotgame"
@@ -17,7 +16,7 @@ Gem::Specification.new do |spec|
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "https://rubygems.org/profiles/antodoms"
+    spec.metadata['allowed_push_host'] = "https://rubygems.org/"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
