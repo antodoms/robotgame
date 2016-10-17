@@ -23,13 +23,13 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", '~> 0'
-  spec.add_development_dependency "rake", '~> 0'
-  spec.add_development_dependency "rspec", '~> 0'
-  spec.add_development_dependency "rspec-nc", '~> 0'
-  spec.add_development_dependency "guard", '~> 0'
-  spec.add_development_dependency "guard-rspec", '~> 0'
-  spec.add_development_dependency "pry", '~> 0'
-  spec.add_development_dependency "pry-remote", '~> 0'
-  spec.add_development_dependency "pry-nav", '~> 0'
+  spec.add_development_dependency "bundler", '>=1.13.3'
+  spec.add_development_dependency "rake", '>=11.3.0'
+  spec.add_development_dependency "rspec", '>=3.5.0'
+  spec.add_development_dependency "rspec-nc", '>=0.3.0'
+  spec.add_development_dependency "guard", '>=2.14.0'
+  spec.add_development_dependency "guard-rspec", '>=4.7.3'
+  spec.add_development_dependency "pry", '>=0.10.4'
+  spec.add_development_dependency "pry-remote", '>=0.1.8'
+  spec.add_development_dependency "pry-nav", '>=0.2.4'
 end

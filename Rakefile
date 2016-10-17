@@ -4,6 +4,6 @@ require 'bundler/gem_tasks'
 
 # Default directory to look in is `/specs`
 # Run with `rake spec`
-RSpec::Core::RakeTask.new(:spec)
+RSpec::Core::RakeTask.new(:test)
 
-task :default => :spec
+task :default => :test
