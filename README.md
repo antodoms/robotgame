@@ -49,6 +49,7 @@ Run the robot commands
 
 ## Testing
 For running the rspec tests, first clone this repository and from inside the directory run the command :
+
     $ rake test
 
 ## Development
